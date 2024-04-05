@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cricket</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <h1>Bat Ball Stump Game</h1>
+  <button onclick="batFunction()">
+    <img src="image/bat.png" alt="Bat-Image" class="bat">
+  </button>
+  <button onclick="ballFunction()">
+    <img src="image/ball.png" alt="Ball-Image" class="ball">
+  </button>
+  <button onclick="stumpFunction()">
+    <img src="image/stump.png" alt="Stump-Image" class="stump">
+  </button><br>
+  <br />
+  <hr>
+  <h3 id="user-move"></h3>
+
+  <h3 id="computer-move"></h3>
+
+  <h3 id="result-move"></h3>
+
+  <h3 id="score">Score:</h3>
+  <hr>
+  <button onclick="reset()">Reset Scoreboard</button>
+  <script src="./javascript/script.js"></script>
+</body>
+
+</html>
